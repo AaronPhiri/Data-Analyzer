@@ -6,8 +6,6 @@ class CreateUsers < ActiveRecord::Migration
 			t.string :role
 			
       t.timestamps
-
-			t.save
     end
   end
 end
