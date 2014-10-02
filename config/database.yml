@@ -50,5 +50,3 @@ test:
 production:
   <<: *default
   database: DataAnalyzer_production
-  username: DataAnalyzer
-  password: <%= ENV['DATAANALYZER_DATABASE_PASSWORD'] %>

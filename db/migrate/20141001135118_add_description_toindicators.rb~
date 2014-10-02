@@ -1,0 +1,4 @@
+class AddDescriptionToindicators < ActiveRecord::Migration
+  def change
+  end
+end

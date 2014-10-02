@@ -1,0 +1,8 @@
+class CreateAvalSystems < ActiveRecord::Migration
+  def change
+    create_table :aval_systems do |t|
+
+      t.timestamps
+    end
+  end
+end

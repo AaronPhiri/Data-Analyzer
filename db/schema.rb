@@ -11,9 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141001114715) do
+ActiveRecord::Schema.define(version: 20141002061532) do
+
+  create_table "aval_systems", force: true do |t|
+    t.string   "name_of_system"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "indicators", force: true do |t|
+    t.string   "name_of_indicator"
+    t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
